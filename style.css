@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color: darkseagreen;
+    padding-top: 80px;
+    margin:0;
+}
+
+
+img{
+    
+    border-radius: 50%;
+    border-style: solid;
+    border-color: darkgreen;
+    width: 100px;
+}
+
+.menu{
+    position: fixed;
+    background-color: azure;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    right: 30px;
+    font-family: fantasy;
+    list-style: none;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#Welcome{
+    z-index: 9;
+   font-family: 'Indie Flower', cursive;
+}
+
+.links{
+    float: left;
+    padding-left: 9px;
+    padding-right:9px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.article:hover{
+    color: crimson;
+}
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
